@@ -1,0 +1,55 @@
+{% extends 'galeria/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+        <main class="principal">
+            
+            {% include 'galeria/partials/_menu.html' %}
+
+            <section class="conteudo">
+                
+                {% include 'galeria/partials/_banner.html' %}
+                
+
+                <section class="galeria">
+                    <div class="cards">
+                        <h2 class="cards__titulo">Explorar é só o começo.</h2>
+                        <ul class="cards__lista">
+
+                            
+                            {% for fotografias in cards %}
+
+                                <li class="card">
+                                    <a href="{% url 'imagem' fotografias.id %}">
+                                        {% if fotografias.foto == "" or fotografias.foto == null %}
+                                        <img class="card__imagem" src="{% static '/assets/imagens/galeria/notfound.png' %}" alt="notfound"/>
+                                        {% else %}
+                                        <img class="card__imagem" src="{{ fotografias.foto.url }}" alt="{{ fotografias.nome }}"/>
+                                        {% endif %}
+                                    </a>
+                                    <span class="card__tag">{{fotografias.categoria}}</span>
+                                    <div class="card__info">
+                                        <p class="card__titulo">{{fotografias.nome}}</p>
+                                        <div class="card__texto">
+                                            <p class="card__descricao">{{fotografias.legenda}}</p>
+                                            <!-- <span>
+                                                <img src="{% static '/assets/ícones/1x/favorite_outline.png' %}" alt="ícone de coração">
+                                            </span> -->
+                                        </div>
+                                    </div>
+                                </li>
+
+                            {% endfor %}
+                            
+
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+
+
+{% endblock %}

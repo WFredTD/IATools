@@ -1,0 +1,190 @@
+# Inteligências Artificiais por Categoria
+
+## Modelos Conversacionais (GPT)
+
+### Gemini
+- **Descrição**: Modelo de inteligência artificial do Google, projetado para processar informações e interagir com usuários. Capaz de responder perguntas, criar textos variados (poemas, códigos, roteiros, e-mails), traduzir idiomas, resumir informações e auxiliar em diversas tarefas.
+- **Diferencial**: Busca ser útil e acessível, com foco em linguagem natural.
+- **Imagem**: `fotos/2025/05/20/gemini_XfyWgSy.png`
+
+### ChatGPT
+- **Descrição**: Modelo da OpenAI focado em interações conversacionais e geração de texto. Responde a perguntas simples e complexas, escreve artigos, poemas, códigos, roteiros e e-mails, além de resumir informações.
+- **Diferencial**: Versatilidade em comunicação, aprendizado e criatividade textual.
+- **Imagem**: `fotos/2025/05/20/chatgpt-icon-removebg.png`
+
+### Grok
+- **Descrição**: Modelo da xAI, com personalidade "rebelde" e senso de humor. Responde a quase tudo, processa informações em tempo real do X (antigo Twitter) e é capaz de debater com irreverência.
+- **Diferencial**: Foco em compreender o universo e oferecer respostas profundas.
+- **Imagem**: `fotos/2025/05/22/grok-icon.png`
+
+### Claude
+- **Descrição**: Modelo da Anthropic voltado para conversação avançada. Processa longos trechos de texto, oferece respostas detalhadas e nuançadas, e auxilia na criação de conteúdo extenso.
+- **Diferencial**: Diálogos naturais e resumos de informações complexas.
+- **Imagem**: `fotos/2025/05/22/claude-ai-icon.png`
+
+### Copilot
+- **Descrição**: Assistente digital da Microsoft integrado ao dia a dia, com acesso em tempo real à internet. Responde perguntas, gera textos, resume documentos e auxilia em tarefas no sistema operacional.
+- **Diferencial**: Integração com a web e produtividade intuitiva.
+- **Imagem**: `fotos/2025/05/22/copilot-icon.png`
+
+## Pesquisa e Informação (Úteis)
+
+### Perplexity
+- **Descrição**: Ferramenta de pesquisa que responde perguntas complexas de forma direta, fornecendo fontes e citações verificáveis.
+- **Diferencial**: Transparência com fontes confiáveis para aprofundamento.
+- **Imagem**: `fotos/2025/05/22/perplexity-ai-icon.png`
+
+### Codeium
+- **Descrição**: Assistente de programação que oferece autocompletar de código, geração de trechos e respostas a perguntas em tempo real.
+- **Diferencial**: Aumenta a produtividade de desenvolvedores.
+- **Imagem**: `fotos/2025/05/23/Codeium.png`
+
+### Notion AI
+- **Descrição**: Assistente integrado ao Notion, ajuda na escrita, resumo de documentos, geração de ideias, tradução e automação de tarefas.
+- **Diferencial**: Otimiza o fluxo de trabalho no Notion.
+- **Imagem**: `fotos/2025/05/23/Notion.png`
+
+### Otter.ai
+- **Descrição**: Transcreve áudio em tempo real, identifica oradores, gera resumos e extrai pontos de ação de reuniões.
+- **Diferencial**: Ideal para gerenciar e revisar discussões faladas.
+- **Imagem**: `fotos/2025/05/23/Otter.png`
+
+### Tome
+- **Descrição**: Cria apresentações e narrativas visuais rapidamente, com IA sugerindo layouts, imagens e estrutura de conteúdo.
+- **Diferencial**: Agilidade na criação de slides dinâmicos e envolventes.
+- **Imagem**: `fotos/2025/05/23/Tome_Symbol_1.png`
+
+## Criação de Vídeos
+
+### RunwayML
+- **Descrição**: Plataforma de IA para criação e edição de vídeos, permitindo gerar cenas a partir de texto e transformar filmagens existentes.
+- **Diferencial**: Ideal para cineastas e artistas explorarem novas fronteiras visuais.
+- **Imagem**: `fotos/2025/05/22/runway-logo-420x420.png`
+
+### Synthesia
+- **Descrição**: Cria vídeos profissionais com avatares de IA e vozes em diversos idiomas, sem necessidade de filmagens ou atores.
+- **Diferencial**: Escala e personalização para conteúdo corporativo e marketing.
+- **Imagem**: `fotos/2025/05/22/Symbol-Indigo.png`
+
+### Invideo AI
+- **Descrição**: Editor de vídeo online que usa IA para criar vídeos a partir de textos, artigos ou scripts, com seleção automática de mídias e música.
+- **Diferencial**: Acessível e eficiente para criadores de conteúdo.
+- **Imagem**: `fotos/2025/05/22/icons8-invideo-ai-240.png`
+
+### OpusClip
+- **Descrição**: Transforma vídeos longos em clipes curtos e envolventes, otimizados para redes sociais, identificando automaticamente os melhores momentos.
+- **Diferencial**: Criação rápida de conteúdo viral.
+- **Imagem**: `fotos/2025/05/22/img_v3_02ck_5fdc287f-7aed-445d-bf54-2300c27d6d0h-removebg-preview.png`
+
+### Google Veo
+- **Descrição**: Modelo do Google para geração de vídeos de alta qualidade a partir de texto, imagens ou estilos de vídeo existentes.
+- **Diferencial**: Transforma ideias criativas em conteúdo visual dinâmico.
+- **Imagem**: `fotos/2025/05/22/veo.png`
+
+## Geração de Imagens
+
+### Midjourney
+- **Descrição**: Gera imagens visuais deslumbrantes a partir de texto, com estilo estético único, ideal para ilustrações e pinturas digitais.
+- **Diferencial**: Ferramenta poderosa para artistas e designers.
+- **Imagem**: `fotos/2025/05/23/Midjourney-Logo.png`
+
+### Leonardo AI
+- **Descrição**: Plataforma de geração de imagens com controle refinado, permitindo ajustes detalhados e uso de modelos personalizados.
+- **Diferencial**: Precisão para artistas e designers.
+- **Imagem**: `fotos/2025/05/23/leonardo_ai-logo_brandlogos.net_ctjsa.png`
+
+### Adobe Firefly
+- **Descrição**: IA generativa da Adobe para criação e manipulação de imagens, com preenchimento generativo e integração ao ecossistema Adobe.
+- **Diferencial**: Segurança, ética e confiabilidade para profissionais criativos.
+- **Imagem**: `fotos/2025/05/23/Adobe_Firefly_Logo.svg.png`
+
+### Playground AI
+- **Descrição**: Plataforma gratuita para geração de imagens com Stable Diffusion, permitindo criar visuais diversos de forma intuitiva.
+- **Diferencial**: Acessibilidade e grande volume de imagens diárias.
+- **Imagem**: `fotos/2025/05/23/playground_L46ugNm.png`
+
+### DreamStudio
+- **Descrição**: Plataforma oficial do Stable Diffusion, com controle preciso para geração de imagens detalhadas e de alta qualidade.
+- **Diferencial**: Acesso às últimas atualizações do Stable Diffusion.
+- **Imagem**: `fotos/2025/05/23/DreamStudio-removebg-preview.png`
+
+## Criação de Áudio
+
+### Suno AI
+- **Descrição**: Cria músicas completas com letras e melodias a partir de texto, democratizando a produção musical.
+- **Diferencial**: Intuitiva para usuários sem conhecimento musical.
+- **Imagem**: `fotos/2025/05/23/Suno_2024.png`
+
+### ElevenLabs
+- **Descrição**: Gera fala realista a partir de texto, com clonagem de voz para narrações, audiolivros e dublagens.
+- **Diferencial**: Realismo impressionante em vozes de IA.
+- **Imagem**: `fotos/2025/05/23/ElevenLabs_logo__2022-2024_-removebg-preview.png`
+
+### Murf.ai
+- **Descrição**: Transforma texto em fala com diversas vozes em múltiplos idiomas, ideal para vídeos, podcasts e e-learning.
+- **Diferencial**: Biblioteca diversificada de vozes de alta qualidade.
+- **Imagem**: `fotos/2025/05/23/MurfIA_KaVvX1k.png`
+
+### Descript
+- **Descrição**: Software de edição que transcreve áudio e vídeo, permitindo edição via texto, remoção de palavras de preenchimento e clonagem de voz.
+- **Diferencial**: Simplifica edição de áudio e vídeo.
+- **Imagem**: `fotos/2025/05/23/Descript.png`
+
+### AIVA
+- **Descrição**: Compõe trilhas sonoras instrumentais personalizadas para vídeos, jogos e podcasts.
+- **Diferencial**: Criação de música sob medida sem conhecimento musical.
+- **Imagem**: `fotos/2025/05/23/AIVA.png`
+
+## Análise de Dados
+
+### Google Looker Studio
+- **Descrição**: Plataforma gratuita do Google para criar relatórios e dashboards interativos a partir de dados brutos.
+- **Diferencial**: Visualização clara de métricas e tendências.
+- **Imagem**: `fotos/2025/05/23/google-looker-seeklogo.png`
+
+### H2O.ai
+- **Descrição**: Plataforma de código aberto para machine learning, com algoritmos avançados para análise preditiva e AutoML.
+- **Diferencial**: Escala para grandes volumes de dados.
+- **Imagem**: `fotos/2025/05/23/H2O-sunshine-Logo_1000px.png`
+
+### KNIME
+- **Descrição**: Plataforma visual de código aberto para ciência de dados, permitindo criar fluxos de trabalho complexos sem codificação.
+- **Diferencial**: Flexibilidade para análise e modelagem de dados.
+- **Imagem**: `fotos/2025/05/23/KNIME-removebg-preview.png`
+
+### Tableau Public
+- **Descrição**: Transforma dados em visualizações interativas e dashboards intuitivos, ideal para contar histórias com dados.
+- **Diferencial**: Comunicação clara e impactante de insights.
+- **Imagem**: `fotos/2025/05/23/Tableau_Public.png`
+
+### RapidMiner Studio
+- **Descrição**: Plataforma visual para ciência de dados, com workflows completos para análise e modelagem preditiva (versão Community gratuita).
+- **Diferencial**: Acessível e robusto para análises de ponta a ponta.
+- **Imagem**: `fotos/2025/05/23/rapidminer_icon_6yX5OVA.png`
+
+## Design Gráfico
+
+### Canva
+- **Descrição**: Plataforma de design gráfico com IA para criar posts, apresentações e documentos de forma intuitiva.
+- **Diferencial**: Acessível para todos os níveis de habilidade.
+- **Imagem**: `fotos/2025/05/23/canva.png`
+
+### Microsoft Designer
+- **Descrição**: Ferramenta gratuita da Microsoft que gera gráficos a partir de texto, ideal para redes sociais e materiais visuais.
+- **Diferencial**: Sugestões de layout e personalização rápida.
+- **Imagem**: `fotos/2025/05/23/Microsoft_Designer.png`
+
+### Designs.ai
+- **Descrição**: Plataforma de IA para criar logotipos, vídeos curtos e materiais de marketing de forma otimizada.
+- **Diferencial**: Ferramentas inteligentes para agilizar o processo criativo.
+- **Imagem**: `fotos/2025/05/23/Designs.png`
+
+### Galileo AI
+- **Descrição**: Gera mockups e wireframes de UI/UX a partir de texto, acelerando a ideação para designers de produto.
+- **Diferencial**: Foco em design de interfaces.
+- **Imagem**: `fotos/2025/05/23/galileoai_logo-removebg-preview.png`
+
+### Remove.bg
+- **Descrição**: Remove fundos de imagens automaticamente, entregando resultados limpos em segundos.
+- **Diferencial**: Simplifica edição para designers e fotógrafos.
+- **Imagem**: `fotos/2025/05/23/Remove_bg.png`

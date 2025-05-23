@@ -1,0 +1,17 @@
+{% load static %}
+
+<div class="pagina-inicial">
+    <header class="cabecalho">
+        <img src="{% static '/assets/logo/logo.png'%}" class="logo" alt="Logo da IATools" />
+        <div class="cabecalho__busca">
+            <div class="busca__fundo">
+
+                <form method="GET" action="{% url 'buscar' %}" class="formulario">
+                    <input class="busca__input" type="text" name="search" placeholder="O que você procura?">
+                    <button class="busca__botao" type="submit">
+                        <img class="busca__icone" src="{% static '/assets/ícones/1x/search.png' %}" alt="ícone de search">
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>

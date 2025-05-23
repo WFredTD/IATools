@@ -1,0 +1,26 @@
+:root {
+    /* Paleta principal */
+    --primary: #3A86FF;        /* Azul Elétrico */
+    --primary-light: #A3C1FF;
+    --primary-dark: #007ACC;
+
+    --accent: #4e189a;         /* Roxo Violeta */
+    --accent-light: #814af1;
+    --accent-dark: #381057;
+
+    --highlight: #00F5D4;      /* Ciano Neon */
+    --highlight-light: #66F7E0;
+    --highlight-dark: #00B2A1;
+
+    --black: #000000;          /* Preto */
+    --background: #1E1E2F;      /* Cinza Escuro */
+    --background-light: #3A3A4D;
+
+    --cta: #FF6F20;            /* Laranja Brilhante */
+    --cta-alt: #FFD60A;        /* Amarelo */
+
+    --text: #FFFFFF;            /* Branco principal */
+    --text-secondary: #B0B0B0; /* Cinza Médio para textos secundários */
+    --background-alt: #F5F5F5; /* Cinza Claro para fundos e áreas claras */
+}
+

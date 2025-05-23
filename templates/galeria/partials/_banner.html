@@ -1,0 +1,29 @@
+{% load static %}
+
+<section class="banner">
+    <img class="banner__imagem" src="{% static '/assets/imagens/Banner1.jpg' %}" alt="banner da IATools">
+    <div class="banner__titulo">
+        <div class="banner__esquerda">
+            <h1>A mais</h1>
+            <h1>completa</h1>
+        </div>
+        <div class="banner__direita">
+            <h1>lista</h1>
+            <h1>de IAs!</h1>
+        </div>
+    </div>
+</section>
+                    <section class="tags">
+                    <!-- <p class="tags__titulo">Categorias:</p> -->
+                    <p>Categorias:</p>
+                    <ul class="tags__lista">
+                        <li class="tags__tag"><a href="{% url 'index' %}">Todos</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'gpt' %}">GPT</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'videos' %}">Vídeos</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'imagens' %}">Imagens</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'audios' %}">Áudios</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'dados' %}">Dados</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'design' %}">Design</a></li>
+                        <li class="tags__tag"><a href="{% url 'filtrar_categoria' 'uteis' %}">Úteis</a></li>
+                    </ul>                   
+                </section>
