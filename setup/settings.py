@@ -10,9 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-from pathlib import Path
-from dotenv import load_dotenv
 import os
+from pathlib import Path
+
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -39,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'galeria.apps.GaleriaConfig', # Adicionando a aplicação galeria. escrevendo desse jeito é uma boa prática, pois se o nome da aplicação mudar, não precisamos mudar aqui
-    'usuarios.apps.UsuariosConfig', # Adicionando a aplicação usuarios
+    'galeria.apps.GaleriaConfig',  # Adicionando a aplicação galeria. escrevendo desse jeito é uma boa prática, pois se o nome da aplicação mudar, não precisamos mudar aqui
+    'usuarios.apps.UsuariosConfig',  # Adicionando a aplicação usuarios
 ]
 
 MIDDLEWARE = [
@@ -58,7 +59,9 @@ ROOT_URLCONF = 'setup.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')], # Adicionando o diretório templates
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates')
+        ],  # Adicionando o diretório templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,13 +125,19 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'setup/static') # Adicionando o diretório static, que contém os arquivos estáticos da aplicação
+    os.path.join(
+        BASE_DIR, 'setup/static'
+    )  # Adicionando o diretório static, que contém os arquivos estáticos da aplicação
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Diretório onde os arquivos estáticos serão salvos quando o comando collectstatic for executado
+STATIC_ROOT = os.path.join(
+    BASE_DIR, 'static'
+)   # Diretório onde os arquivos estáticos serão salvos quando o comando collectstatic for executado
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # Diretório onde as imagens serão salvas
-MEDIA_URL = '/media/' # URL que será utilizada para acessar as imagens
+MEDIA_ROOT = os.path.join(
+    BASE_DIR, 'media'
+)   # Diretório onde as imagens serão salvas
+MEDIA_URL = '/media/'   # URL que será utilizada para acessar as imagens
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

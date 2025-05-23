@@ -13,6 +13,18 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='fotografias',
             name='categoria',
-            field=models.CharField(choices=[('GPT', 'gpt'), ('VIDEOS', 'videos'), ('IMAGENS', 'imagens'), ('AUDIOS', 'audios'), ('DADOS', 'dados'), ('DESIGN', 'design'), ('UTEIS', 'uteis')], default='', max_length=100),
+            field=models.CharField(
+                choices=[
+                    ('GPT', 'gpt'),
+                    ('VIDEOS', 'videos'),
+                    ('IMAGENS', 'imagens'),
+                    ('AUDIOS', 'audios'),
+                    ('DADOS', 'dados'),
+                    ('DESIGN', 'design'),
+                    ('UTEIS', 'uteis'),
+                ],
+                default='',
+                max_length=100,
+            ),
         ),
     ]

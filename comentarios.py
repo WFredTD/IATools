@@ -1,4 +1,4 @@
-""""
+""" "
 Para criar um banco usamos o comando no terminal:
     python manage.py migrate
 
@@ -17,7 +17,7 @@ O superuser é o usuário administrador do django, ele tem acesso a todas as fun
 Usando o shell do django, podemos por exemplo, acrescentar uma imagemno banco, os comandos são os seguintes:
     python manage.py shell
     from galeria.models import Fotografias
-    foto = Fotografias(nome="planeta shell",legenda=" o shell se abrindo",descricao="o shell se abrindo",foto="planeta_shell.jpg") 
+    foto = Fotografias(nome="planeta shell",legenda=" o shell se abrindo",descricao="o shell se abrindo",foto="planeta_shell.jpg")
     foto.save()
     Fotografias.objects.all()
 
@@ -30,7 +30,4 @@ Tembém existe uma forma de fazer um "update" na tabela, ou seja, alterar os dad
     foto = Fotografias.objects.get(pk=1)
     foto.nome = "planeta shell alterado"
     foto.save()
-
 """
-
-

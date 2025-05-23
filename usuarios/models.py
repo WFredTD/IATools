@@ -49,5 +49,3 @@ from django.db import models
 # reptil4 = Reptil("Sapo", "Verde", "Pequeno", False)
 # reptil5 = Reptil("Rã Venenosa", "Verde", "Pequena", True)
 # reptil6 = Reptil("Jacaré", "Verde", "Grande", False)
-
-
